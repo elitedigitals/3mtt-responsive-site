@@ -131,9 +131,10 @@ li{
     font-size: 12px;
 }
 
-@media screen and (max-width:375px){
+@media only screen and (max-width:640px){
+    
     .menu-nav{
-        display: none;
+       display: none;
     }
 
     .hero-section{
